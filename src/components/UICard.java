@@ -1,3 +1,4 @@
+package components;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -6,6 +7,10 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.JComponent;
+
+import model.Card;
+import model.Rank;
+import model.Suit;
 
 public class UICard extends JComponent {
 	private static final long serialVersionUID = 1661874213530191469L;

@@ -1,3 +1,4 @@
+package components;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -14,6 +15,9 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
+
+import model.Rank;
+import model.Suit;
 
 public class GameBoard extends JPanel {
 	private static final long serialVersionUID = 2558098042977111L;
